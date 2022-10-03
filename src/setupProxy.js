@@ -6,7 +6,6 @@ module.exports = function(app) {
     createProxyMiddleware({
       target: 'https://oversee-back.vercel.app',
       changeOrigin: true,
-      
     })
   );
 };
