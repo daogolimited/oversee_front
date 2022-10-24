@@ -181,7 +181,7 @@ const Header = () => {
             {menuList.map((item, index) => (
               <>
                 <MenuContent onClick={() => history.push(`/products/${item.pk}`)} className={`menu${index}`} key={index}>
-                  {item.name}
+                  {item.en_name}
                 </MenuContent>
               </>
             ))}
